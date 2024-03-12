@@ -108,10 +108,10 @@ export default function Home() {
 									quis lectus nulla at volutpat diam.
 								</p>
 
-								<div className="tags flex flex-wrap items-center gap-4">
-									<span>JavaScript</span>
-									<span>TypeScript</span>
-									<span>React</span>
+								<div className="tags flex flex-wrap items-center gap-2 mt-2">
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">JavaScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">TypeScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">React</span>
 								</div>
 							</div>
 						</a>
@@ -135,10 +135,10 @@ export default function Home() {
 									quis lectus nulla at volutpat diam.
 								</p>
 
-								<div className="tags flex flex-wrap items-center gap-4">
-									<span>JavaScript</span>
-									<span>TypeScript</span>
-									<span>React</span>
+								<div className="tags flex flex-wrap items-center gap-2 mt-2">
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">JavaScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">TypeScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">React</span>
 								</div>
 							</div>
 						</a>
@@ -162,10 +162,10 @@ export default function Home() {
 									quis lectus nulla at volutpat diam.
 								</p>
 
-								<div className="tags flex flex-wrap items-center gap-4">
-									<span>JavaScript</span>
-									<span>TypeScript</span>
-									<span>React</span>
+								<div className="tags flex flex-wrap items-center gap-2 mt-2">
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">JavaScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">TypeScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">React</span>
 								</div>
 							</div>
 						</a>
@@ -189,10 +189,10 @@ export default function Home() {
 									quis lectus nulla at volutpat diam.
 								</p>
 
-								<div className="tags flex flex-wrap items-center gap-4">
-									<span>JavaScript</span>
-									<span>TypeScript</span>
-									<span>React</span>
+								<div className="tags flex flex-wrap items-center gap-2 mt-2">
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">JavaScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">TypeScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">React</span>
 								</div>
 							</div>
 						</a>
@@ -216,10 +216,10 @@ export default function Home() {
 									quis lectus nulla at volutpat diam.
 								</p>
 
-								<div className="tags flex flex-wrap items-center gap-4">
-									<span>JavaScript</span>
-									<span>TypeScript</span>
-									<span>React</span>
+								<div className="tags flex flex-wrap items-center gap-2 mt-2">
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">JavaScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">TypeScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">React</span>
 								</div>
 							</div>
 						</a>
@@ -249,10 +249,10 @@ export default function Home() {
 									quis lectus nulla at volutpat diam.
 								</p>
 
-								<div className="tags flex flex-wrap items-center gap-4">
-									<span>JavaScript</span>
-									<span>TypeScript</span>
-									<span>React</span>
+								<div className="tags flex flex-wrap items-center gap-2 mt-2">
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">JavaScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">TypeScript</span>
+									<span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">React</span>
 								</div>
 							</div>
 						</a>
