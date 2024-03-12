@@ -2,7 +2,7 @@ export default function Home() {
 	// TODO: Navigation scrolling
 
 	return (
-		<main className="bg-gradient-to-r from-zinc-900 to-slate-800 text-zinc-100 min-h-screen p-16 flex justify-center">
+		<main className="bg-gradient-to-r from-zinc-900 to-slate-800 text-zinc-100 min-h-screen py-16 px-8 md:px-16 flex justify-center">
 			<div className="grid grid-cols-1 gap-14 items-start md:grid-cols-[400px_minmax(400px,_550px)]">
 				<div className="left-col flex flex-col md:sticky md:top-24">
 					<div className="info flex flex-col gap-4 pb-24">
