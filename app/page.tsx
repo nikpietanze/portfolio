@@ -3,9 +3,9 @@ export default function Home() {
 
 	return (
 		<main className="bg-gradient-to-r from-zinc-900 to-slate-800 text-zinc-100 min-h-screen py-16 px-8 md:px-16 flex justify-center">
-			<div className="grid grid-cols-1 gap-14 items-start md:grid-cols-[400px_minmax(400px,_550px)]">
+			<div className="grid grid-cols-1 gap-16 items-start md:grid-cols-[400px_minmax(400px,_550px)]">
 				<div className="left-col flex flex-col md:sticky md:top-24">
-					<div className="info flex flex-col gap-4 pb-24">
+					<div className="info flex flex-col gap-4 pb-16">
 						<h1 className="text-5xl font-bold">Nik Pietanze</h1>
 						<h2 className="text-xl font-bold">
 							Senior Software Engineer
@@ -16,7 +16,7 @@ export default function Home() {
 						</p>
 					</div>
 
-					<div className="nav flex flex-col gap-4 text-sm font-bold text-emerald-700">
+					<div className="nav flex md:flex-col gap-4 text-sm font-bold text-emerald-700">
 						<a href="#about" className="active">
 							ABOUT
 						</a>
@@ -25,7 +25,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="right-col flex flex-col gap-32">
+				<div className="right-col flex flex-col gap-24">
 					<div
 						id="about"
 						className="flex flex-col gap-4 text-zinc-300">
@@ -225,7 +225,7 @@ export default function Home() {
 						</a>
 					</div>
 
-					<div id="projects" className="flex flex-col gap-8 -mx-4">
+					<div id="projects" className="flex flex-col gap-8 -mt-4 -mx-4">
 						<h2 className="text-sm font-bold text-emerald-600 -mb-6 px-4">
 							PROJECTS
 						</h2>
