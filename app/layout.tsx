@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Nik Pietanze",
-	description: "Nik Pietanze is a senior software engineer who builds performant and data-focused applications for the web.",
+	description:
+		"Nik Pietanze is a senior software engineer who builds performant and data-focused applications for the web.",
 };
 
 export default function RootLayout({
