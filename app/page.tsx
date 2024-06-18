@@ -1,9 +1,12 @@
 "use client";
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import nickedImg from "../public/img/nicked.io.comp.jpg";
+import nickedImg from "../public/img/nicked-logo.png";
+import pokedexImg from "../public/img/pokedex-logo.png";
+import accordImg from "../public/img/accord-logo.png";
+import budgetlyImg from "../public/img/budgetly-logo.png";
 
 export default function Home() {
     const [navState, setNavState] = useState("about");
@@ -263,6 +266,47 @@ export default function Home() {
                             </h2>
 
                             <Link
+                                href="https://www.pokedex.gg"
+                                target="_blank"
+                                className="grid grid-cols-1 gap-4 md:grid-cols-[125px_auto] hover:bg-emerald-900/50 transition rounded-lg p-4">
+
+                                <Image src={pokedexImg} alt="" />
+
+                                <div className="details flex flex-col gap-2">
+                                    <span className="pos-title text-lg font-bold">
+                                        Pokedex.gg
+                                    </span>
+                                    <p className="pos-description text-base text-zinc-300">
+                                        Pokedex.gg is a modern pokedex website that gives players a modern and easy to use website to search Pokemon for the various games.
+                                    </p>
+
+                                    <div className="tags flex flex-wrap items-center gap-2 mt-2">
+                                        <span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">
+                                            NextJS
+                                        </span>
+                                        <span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">
+                                            TypeScript
+                                        </span>
+                                        <span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">
+                                            TailwindCSS
+                                        </span>
+                                        <span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">
+                                            Shadcn/UI
+                                        </span>
+                                        <span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">
+                                            Postgres
+                                        </span>
+                                        <span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">
+                                            DrizzleORM
+                                        </span>
+                                        <span className="bg-emerald-900/75 text-sm text-emerald-400 font-bold px-4 py-1 rounded-full">
+                                            PostHog
+                                        </span>
+                                    </div>
+                                </div>
+                            </Link>
+
+                            <Link
                                 href="https://nicked.io"
                                 target="_blank"
                                 className="grid grid-cols-1 gap-4 md:grid-cols-[125px_auto] hover:bg-emerald-900/50 transition rounded-lg p-4">
@@ -302,7 +346,7 @@ export default function Home() {
                                 target="_blank"
                                 className="grid grid-cols-1 gap-4 md:grid-cols-[125px_auto] hover:bg-emerald-900/50 transition rounded-lg p-4">
 
-                                <Image src={nickedImg} alt="" />
+                                <Image src={accordImg} alt="" />
 
                                 <div className="details flex flex-col gap-2">
                                     <span className="pos-title text-lg font-bold">
@@ -337,7 +381,7 @@ export default function Home() {
                                 target="_blank"
                                 className="grid grid-cols-1 gap-4 md:grid-cols-[125px_auto] hover:bg-emerald-900/50 transition rounded-lg p-4">
 
-                                <Image src={nickedImg} alt="" />
+                                <Image src={budgetlyImg} alt="" />
 
                                 <div className="details flex flex-col gap-2">
                                     <span className="pos-title text-lg font-bold">
